@@ -11,6 +11,8 @@
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_sword</sprite>
     <sprite>sprites\spr_enemy_dead</sprite>
+    <sprite>sprites\spr_enemy_sword</sprite>
+    <sprite>sprites\spr_dead_player</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -20,6 +22,8 @@
     <object>objects\obj_enemy</object>
     <object>objects\obj_sword</object>
     <object>objects\obj_enemy_dead</object>
+    <object>objects\obj_enemy_sword</object>
+    <object>objects\obj_dead_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_1</room>
