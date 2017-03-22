@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_next(room_num);
+            <string>//room_next(room_num);
+
+game_restart();
 </string>
           </argument>
         </arguments>
