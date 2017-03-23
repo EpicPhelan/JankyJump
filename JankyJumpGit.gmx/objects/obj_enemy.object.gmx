@@ -28,6 +28,9 @@
             <string>//make weapon
 e_sword = instance_create(x,y,obj_enemy_sword);
 
+//sprite animation speed
+image_speed = .1;
+
 </string>
           </argument>
         </arguments>
@@ -167,9 +170,9 @@ instance_destroy();
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>0,0</point>
-    <point>32,0</point>
-    <point>32,32</point>
-    <point>0,32</point>
+    <point>8,2</point>
+    <point>24,2</point>
+    <point>24,32</point>
+    <point>8,32</point>
   </PhysicsShapePoints>
 </object>

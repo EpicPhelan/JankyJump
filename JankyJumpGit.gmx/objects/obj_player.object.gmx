@@ -28,6 +28,7 @@
             <string>physics_joint_revolute_create(id,obj_sword,obj_sword.x,obj_sword.y,0,0,0,0,0,false,false);
 jumped = false;
 mousex = mouse_x
+device_mouse_dbclick_enable(false);
 </string>
           </argument>
         </arguments>
@@ -121,7 +122,10 @@ instance_destroy()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///jump
+            <string>
+
+
+///jump
 if mouse_x &lt; x-10{
     mousex = -mouse_x
 }
@@ -137,16 +141,39 @@ if (place_meeting(x,y+1, obj_floor)){
 }
 if (place_meeting(x,y+1,obj_floor) &amp;&amp; jumped = false){
 
-    physics_apply_impulse(x,y,0,-200);
+    physics_apply_impulse(x,y,clamp(mousex,-100,100),clamp(-mouse_y,-200,200));
     jumped = true
 }
 
 
 if (!place_meeting(x,y+1,obj_floor) &amp;&amp; jumped = true){
 
-    physics_apply_impulse(x,y,mousex/2,-mouse_y/5);
+    physics_apply_impulse(x,y,clamp(mousex,-100,100),clamp(-mouse_y,-200,200));
     jumped = false
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="50">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>obj_sword.phy_rotation = point_direction(x, -y, mouse_x, -mouse_y);
 </string>
           </argument>
         </arguments>
