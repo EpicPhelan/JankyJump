@@ -77,11 +77,16 @@ e_spear = instance_create(x,y,obj_spear);
             <kind>1</kind>
             <string>//animate
 count += random(3)
-if count &gt; 400 {
+if count &gt; 100 {
+   with(obj_spear){
+        spearing = true
+    }    
     sprite_index = spr_dane_throw;
     count = 0;
+ 
     alarm_set(3,50);
 }
+
 
 </string>
           </argument>
