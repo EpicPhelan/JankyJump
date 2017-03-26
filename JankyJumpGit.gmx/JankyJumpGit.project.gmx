@@ -17,6 +17,7 @@
     <sprite>sprites\spr_dane_pull</sprite>
     <sprite>sprites\spr_dane_throw</sprite>
     <sprite>sprites\spr_spear</sprite>
+    <sprite>sprites\spr_cauldron</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\rock_tiles</background>
@@ -33,6 +34,7 @@
     <object>objects\obj_room_goal</object>
     <object>objects\obj_dane</object>
     <object>objects\obj_spear</object>
+    <object>objects\obj_cauldron</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_1</room>
