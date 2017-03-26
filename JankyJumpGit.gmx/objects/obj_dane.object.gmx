@@ -29,7 +29,7 @@
 image_speed = .1;
 count = 0
 
-e_spear = instance_create(x,y,obj_spear);
+
 </string>
           </argument>
         </arguments>
@@ -76,18 +76,19 @@ e_spear = instance_create(x,y,obj_spear);
           <argument>
             <kind>1</kind>
             <string>//animate
-count += random(3)
-if count &gt; 100 {
-   with(obj_spear){
-        spearing = true
-    }    
+count += random(5)
+if count &gt; 400 {
+
     sprite_index = spr_dane_throw;
     count = 0;
- 
-    alarm_set(3,50);
+    e_spear = instance_create(x,y,obj_spear);
+    alarm_set(3,50);  
+} 
+else {
+       // e_spear.phy_position_x = phy_position_x;
+        //e_spear.phy_position_y = phy_position_y;
+
 }
-
-
 </string>
           </argument>
         </arguments>
@@ -113,7 +114,9 @@ if count &gt; 100 {
             <string>repeat(10){
 instance_create(x,y,obj_enemy_dead);
 }
-
+with(obj_spear){
+instance_destroy();
+}
 instance_destroy();
 </string>
           </argument>
