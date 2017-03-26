@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spearing = true;
+            <string>spearing = false;
 </string>
           </argument>
         </arguments>
@@ -76,6 +76,18 @@ physics_apply_impulse(x,y,x+40,y)
             <string>//while spearing = true{
 //physics_apply_force(x,y,30,30);
 //}
+if spearing = false{
+with(obj_dane){
+    other.phy_position_x = phy_position_x;
+    other.phy_position_y = phy_position_y;
+}
+
+}
+else if spearing = true{
+    
+    physics_apply_force(x,y,x-30,y-30);
+    
+}
 </string>
           </argument>
         </arguments>
@@ -181,9 +193,9 @@ physics_apply_impulse(x,y,x+40,y)
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>0,12</point>
-    <point>32,12</point>
-    <point>32,18</point>
-    <point>0,18</point>
+    <point>0,13</point>
+    <point>7,13</point>
+    <point>7,17</point>
+    <point>0,17</point>
   </PhysicsShapePoints>
 </object>
