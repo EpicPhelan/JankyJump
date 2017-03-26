@@ -25,13 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spearing = false;
+            <string>physics_apply_impulse(x,y,-random(10),-random(10));
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="3">
+    <event eventtype="2" enumb="5">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -48,9 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spearing = true;
-physics_apply_impulse(x,y,x+40,y)
-
+            <string>instance_destroy();
 </string>
           </argument>
         </arguments>
@@ -73,27 +71,122 @@ physics_apply_impulse(x,y,x+40,y)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//while spearing = true{
-//physics_apply_force(x,y,30,30);
-//}
-if spearing = false{
-with(obj_dane){
-    other.phy_position_x = phy_position_x;
-    other.phy_position_y = phy_position_y;
-}
+            <string>
 
-}
-else if spearing = true{
-    
-    physics_apply_force(x,y,x-30,y-30);
-    
-}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_spear">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>pile up</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_enemy_sword">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>asdf</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>physics_apply_impulse(obj_sword.phy_position_x,obj_sword.phy_position_y,10,10);
 </string>
           </argument>
         </arguments>
       </action>
     </event>
     <event eventtype="4" ename="obj_sword">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>asdf</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>physics_apply_impulse(obj_sword.phy_position_x,obj_sword.phy_position_y,10,10);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_enemy">
       <action>
         <libid>1</libid>
         <id>605</id>
@@ -174,7 +267,10 @@ else if spearing = true{
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();
+            <string>alarm[5]=100
+
+ 
+
 </string>
           </argument>
         </arguments>
@@ -194,8 +290,8 @@ else if spearing = true{
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>0,13</point>
-    <point>7,13</point>
-    <point>7,17</point>
-    <point>0,17</point>
+    <point>32,13</point>
+    <point>32,16</point>
+    <point>0,16</point>
   </PhysicsShapePoints>
 </object>
