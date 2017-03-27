@@ -223,7 +223,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>instance_destroy();
+</string>
           </argument>
         </arguments>
       </action>

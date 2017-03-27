@@ -21,6 +21,8 @@
   </sprites>
   <backgrounds name="background">
     <background>background\rock_tiles</background>
+    <background>background\Cavetiles</background>
+    <background>background\dungeonbricks</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">

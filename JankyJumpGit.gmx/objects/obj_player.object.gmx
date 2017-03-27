@@ -115,15 +115,18 @@ else{
 {
     instance_create(x,y,obj_dead_player);
 }
-if cp = true{
 
-phy_position_x = instance_nearest(x,y,obj_cauldron).phy_position_x
-phy_position_y = instance_nearest(x,y,obj_cauldron).phy_position_y
+
+
+if cp = true{
+phy_position_x = instance_nearest(x,y,obj_cauldron).phy_position_x;
+phy_position_y = instance_nearest(x,y,obj_cauldron).phy_position_y;
 }
 else{
-    x = 64
-    y = 480
-}
+    phy_position_x = 64;
+    phy_position_y = 480;
+} 
+
 </string>
           </argument>
         </arguments>
@@ -302,9 +305,9 @@ if (!place_meeting(x,y+1,obj_floor) &amp;&amp; jumped = true){
             <string>draw_self();
 
 
-draw_text_colour(x+32,y-32,string(jumped),c_red,c_red,c_red,c_red,1);
-draw_text_colour(x+32,y-16,string(mousey),c_red,c_red,c_red,c_red,1);
-draw_text_colour(x+32,y-8,string(mousex),c_red,c_red,c_red,c_red,1);
+//draw_text_colour(x+32,y-32,string(jumped),c_red,c_red,c_red,c_red,1);
+//draw_text_colour(x+32,y-16,string(mousey),c_red,c_red,c_red,c_red,1);
+//draw_text_colour(x+32,y-8,string(mousex),c_red,c_red,c_red,c_red,1);
 </string>
           </argument>
         </arguments>
