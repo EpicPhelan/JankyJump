@@ -18,6 +18,9 @@
     <sprite>sprites\spr_dane_throw</sprite>
     <sprite>sprites\spr_spear</sprite>
     <sprite>sprites\spr_cauldron</sprite>
+    <sprite>sprites\spr_menu_text</sprite>
+    <sprite>sprites\spr_lev1_button</sprite>
+    <sprite>sprites\sprite14</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\rock_tiles</background>
@@ -37,9 +40,16 @@
     <object>objects\obj_dane</object>
     <object>objects\obj_spear</object>
     <object>objects\obj_cauldron</object>
+    <objects name="Controllers">
+      <object>objects\obj_Title</object>
+      <object>objects\Obj_level1_button</object>
+      <object>objects\obj_level2_button</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_Menu</room>
     <room>rooms\rm_1</room>
+    <room>rooms\rm_2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
