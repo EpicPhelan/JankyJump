@@ -20,7 +20,8 @@
     <sprite>sprites\spr_cauldron</sprite>
     <sprite>sprites\spr_menu_text</sprite>
     <sprite>sprites\spr_lev1_button</sprite>
-    <sprite>sprites\sprite14</sprite>
+    <sprite>sprites\spr_store_tile</sprite>
+    <sprite>sprites\spr_lev2_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\rock_tiles</background>
@@ -43,6 +44,7 @@
       <object>objects\obj_Title</object>
       <object>objects\Obj_level1_button</object>
       <object>objects\obj_level2_button</object>
+      <object>objects\obj_store</object>
     </objects>
     <objects name="Walls and Floors">
       <object>objects\obj_floor</object>
