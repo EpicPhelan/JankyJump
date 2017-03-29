@@ -29,7 +29,6 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_floor</object>
     <object>objects\obj_player</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_sword</object>
@@ -44,6 +43,9 @@
       <object>objects\obj_Title</object>
       <object>objects\Obj_level1_button</object>
       <object>objects\obj_level2_button</object>
+    </objects>
+    <objects name="Walls and Floors">
+      <object>objects\obj_floor</object>
     </objects>
   </objects>
   <rooms name="rooms">

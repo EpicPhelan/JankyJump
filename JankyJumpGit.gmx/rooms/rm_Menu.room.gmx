@@ -11,7 +11,7 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code></code>
-  <enableViews>0</enableViews>
+  <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
@@ -41,27 +41,85 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="obj_player" xview="0" yview="0" wview="300" hview="500" xport="0" yport="0" wport="500" hport="1000" hborder="200" vborder="200" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_Title" x="128" y="288" name="inst_0933CB21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_level1_button" x="96" y="352" name="inst_39E3D672" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_level2_button" x="96" y="416" name="inst_4879DF23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_level1_button" x="115" y="774" name="inst_39E3D672" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_level2_button" x="266" y="775" name="inst_4879DF23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="0" y="960" name="inst_433F6424" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="0" y="0" name="inst_BF5F9F6B" locked="0" code="" scaleX="1" scaleY="30" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="480" y="0" name="inst_12F60E4A" locked="0" code="" scaleX="1" scaleY="30" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="128" y="864" name="inst_C7C459BF" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="256" y="864" name="inst_4D09E9D3" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="32" y="704" name="inst_BC2E5B09" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="96" y="928" name="inst_0DF89AD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sword" x="96" y="928" name="inst_19276746" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cauldron" x="32" y="928" name="inst_E8917E95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
-  <tiles/>
-  <PhysicsWorld>0</PhysicsWorld>
+  <tiles>
+    <tile bgName="Cavetiles" x="0" y="960" w="32" h="32" xo="160" yo="160" id="10001002" name="inst_B6191D89" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="32" y="960" w="32" h="32" xo="160" yo="160" id="10001003" name="inst_CB07F35C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="64" y="960" w="32" h="32" xo="160" yo="160" id="10001004" name="inst_E0646F74" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="96" y="960" w="32" h="32" xo="160" yo="160" id="10001005" name="inst_EC95560D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="128" y="960" w="32" h="32" xo="160" yo="160" id="10001006" name="inst_AF02D54C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="160" y="960" w="32" h="32" xo="160" yo="160" id="10001007" name="inst_B5903C48" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="192" y="960" w="32" h="32" xo="160" yo="160" id="10001008" name="inst_C5F40689" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="224" y="960" w="32" h="32" xo="160" yo="160" id="10001009" name="inst_A220E404" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="256" y="960" w="32" h="32" xo="160" yo="160" id="10001010" name="inst_D838D8C9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="288" y="960" w="32" h="32" xo="160" yo="160" id="10001011" name="inst_3DBC7A4F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="320" y="960" w="32" h="32" xo="160" yo="160" id="10001012" name="inst_AE29303B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="352" y="960" w="32" h="32" xo="160" yo="160" id="10001013" name="inst_81F961EB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="384" y="960" w="32" h="32" xo="160" yo="160" id="10001014" name="inst_D7DA40D6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="416" y="960" w="32" h="32" xo="160" yo="160" id="10001015" name="inst_DE3121FE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="448" y="960" w="32" h="32" xo="160" yo="160" id="10001016" name="inst_522741E5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="480" y="960" w="32" h="32" xo="160" yo="160" id="10001017" name="inst_574BE81E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="128" y="864" w="32" h="32" xo="160" yo="160" id="10001019" name="inst_3F19E0AF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="160" y="864" w="32" h="32" xo="160" yo="160" id="10001020" name="inst_1F5614D9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="32" y="704" w="32" h="32" xo="160" yo="160" id="10001024" name="inst_D266F553" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="64" y="704" w="32" h="32" xo="160" yo="160" id="10001025" name="inst_D388EF51" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="96" y="704" w="32" h="32" xo="160" yo="160" id="10001026" name="inst_88D3A10B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="128" y="704" w="32" h="32" xo="160" yo="160" id="10001027" name="inst_7748D69A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="160" y="704" w="32" h="32" xo="160" yo="160" id="10001028" name="inst_A05D85B7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="192" y="704" w="32" h="32" xo="160" yo="160" id="10001029" name="inst_63DDFBFB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="224" y="704" w="32" h="32" xo="160" yo="160" id="10001030" name="inst_44E7CDE1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="256" y="704" w="32" h="32" xo="160" yo="160" id="10001031" name="inst_10295D96" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="288" y="704" w="32" h="32" xo="160" yo="160" id="10001032" name="inst_D91B63A5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="320" y="704" w="32" h="32" xo="160" yo="160" id="10001033" name="inst_45294968" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="224" y="736" w="32" h="32" xo="160" yo="160" id="10001036" name="inst_10BD1D19" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="224" y="768" w="32" h="32" xo="160" yo="160" id="10001037" name="inst_B84F34FA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="224" y="800" w="32" h="32" xo="160" yo="160" id="10001038" name="inst_F30573EB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="224" y="832" w="32" h="32" xo="160" yo="160" id="10001039" name="inst_1E0C12DD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="224" y="864" w="32" h="32" xo="160" yo="160" id="10001040" name="inst_999FD11C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="256" y="864" w="32" h="32" xo="160" yo="160" id="10001041" name="inst_9031DCAE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="288" y="864" w="32" h="32" xo="160" yo="160" id="10001042" name="inst_23266F28" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="320" y="864" w="32" h="32" xo="160" yo="160" id="10001043" name="inst_E2C7053B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="352" y="864" w="32" h="32" xo="160" yo="160" id="10001044" name="inst_A6570687" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="384" y="864" w="32" h="32" xo="160" yo="160" id="10001045" name="inst_C49B16D1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="416" y="864" w="32" h="32" xo="160" yo="160" id="10001046" name="inst_F5DA780F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="448" y="864" w="32" h="32" xo="160" yo="160" id="10001047" name="inst_ECD10077" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="352" y="704" w="32" h="32" xo="160" yo="160" id="10001048" name="inst_4F4112F7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="384" y="704" w="32" h="32" xo="160" yo="160" id="10001049" name="inst_BDFEC466" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="416" y="704" w="32" h="32" xo="160" yo="160" id="10001050" name="inst_B5A410D2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="448" y="704" w="32" h="32" xo="160" yo="160" id="10001051" name="inst_1FE5A501" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="352" y="736" w="32" h="32" xo="160" yo="160" id="10001052" name="inst_9807FC92" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="352" y="768" w="32" h="32" xo="160" yo="160" id="10001053" name="inst_7EA3D8E2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="352" y="800" w="32" h="32" xo="160" yo="160" id="10001054" name="inst_EF530A72" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="352" y="832" w="32" h="32" xo="160" yo="160" id="10001055" name="inst_97547A91" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Cavetiles" x="192" y="864" w="32" h="32" xo="160" yo="160" id="10001056" name="inst_0D2FC79D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+  </tiles>
+  <PhysicsWorld>-1</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
   <PhysicsWorldRight>1024</PhysicsWorldRight>
   <PhysicsWorldBottom>768</PhysicsWorldBottom>
   <PhysicsWorldGravityX>0</PhysicsWorldGravityX>
-  <PhysicsWorldGravityY>10</PhysicsWorldGravityY>
+  <PhysicsWorldGravityY>30</PhysicsWorldGravityY>
   <PhysicsWorldPixToMeters>0.100000001490116</PhysicsWorldPixToMeters>
 </room>
