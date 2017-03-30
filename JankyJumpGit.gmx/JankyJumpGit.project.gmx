@@ -22,11 +22,14 @@
     <sprite>sprites\spr_lev1_button</sprite>
     <sprite>sprites\spr_store_tile</sprite>
     <sprite>sprites\spr_lev2_button</sprite>
+    <sprite>sprites\spr_lev3_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\rock_tiles</background>
     <background>background\Cavetiles</background>
     <background>background\dungeonbricks</background>
+    <background>background\waterplatform</background>
+    <background>background\docktower</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -44,6 +47,7 @@
       <object>objects\obj_Title</object>
       <object>objects\Obj_level1_button</object>
       <object>objects\obj_level2_button</object>
+      <object>objects\obj_level3_button</object>
       <object>objects\obj_store</object>
     </objects>
     <objects name="Walls and Floors">
@@ -54,6 +58,7 @@
     <room>rooms\rm_Menu</room>
     <room>rooms\rm_1</room>
     <room>rooms\rm_2</room>
+    <room>rooms\rm_3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
