@@ -30,6 +30,7 @@
     <background>background\dungeonbricks</background>
     <background>background\waterplatform</background>
     <background>background\docktower</background>
+    <background>background\Longship</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">

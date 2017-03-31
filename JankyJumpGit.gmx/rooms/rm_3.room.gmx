@@ -42,13 +42,13 @@
   </backgrounds>
   <views>
     <view visible="-1" objName="obj_player" xview="0" yview="0" wview="300" hview="500" xport="0" yport="0" wport="500" hport="1000" hborder="200" vborder="100" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
     <instance objName="obj_player" x="1440" y="928" name="inst_F7736C98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -73,6 +73,14 @@
     <instance objName="obj_floor" x="832" y="992" name="inst_C3ABE161" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="1024" y="768" name="inst_9EDF5522" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="1248" y="800" name="inst_1CBBC491" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="224" y="896" name="inst_B1276DA2" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="416" y="928" name="inst_0E28D566" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="448" y="864" name="inst_9D403D09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="480" y="896" name="inst_23D9B50C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="512" y="896" name="inst_5AC7133B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="544" y="928" name="inst_5BA57942" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="448" y="896" name="inst_67971104" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor" x="544" y="960" name="inst_0A6EACBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="dungeonbricks" x="1504" y="32" w="32" h="32" xo="0" yo="0" id="10001086" name="inst_0DD50472" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -341,6 +349,29 @@
     <tile bgName="dungeonbricks" x="160" y="992" w="32" h="32" xo="0" yo="0" id="10001466" name="inst_1A550CFB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="dungeonbricks" x="128" y="992" w="32" h="32" xo="0" yo="0" id="10001467" name="inst_A6938EF0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="dungeonbricks" x="96" y="992" w="32" h="32" xo="0" yo="0" id="10001468" name="inst_2E801650" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Longship" x="256" y="960" w="32" h="32" xo="32" yo="96" id="10001469" name="inst_E3D0ACF3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Longship" x="288" y="960" w="32" h="32" xo="64" yo="96" id="10001470" name="inst_25BB96D4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Longship" x="224" y="960" w="32" h="32" xo="0" yo="96" id="10001471" name="inst_EF7755A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Longship" x="320" y="960" w="32" h="32" xo="96" yo="96" id="10001472" name="inst_979B3B0E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Longship" x="288" y="928" w="32" h="32" xo="64" yo="64" id="10001473" name="inst_92C03C77" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Longship" x="288" y="896" w="32" h="32" xo="64" yo="32" id="10001474" name="inst_78C70052" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Longship" x="256" y="864" w="32" h="32" xo="32" yo="0" id="10001475" name="inst_97F87029" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Longship" x="320" y="896" w="32" h="32" xo="96" yo="32" id="10001476" name="inst_54C0672E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Longship" x="256" y="896" w="32" h="32" xo="32" yo="32" id="10001477" name="inst_E6307231" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Longship" x="224" y="896" w="32" h="32" xo="0" yo="32" id="10001478" name="inst_D479C933" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Longship" x="256" y="928" w="32" h="32" xo="32" yo="64" id="10001479" name="inst_E11F02B4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="docktower" x="192" y="992" w="32" h="32" xo="128" yo="96" id="10001480" name="inst_A7677739" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="docktower" x="224" y="992" w="32" h="32" xo="128" yo="96" id="10001481" name="inst_431BC615" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="docktower" x="256" y="992" w="32" h="32" xo="128" yo="96" id="10001482" name="inst_E8E8871F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="docktower" x="288" y="992" w="32" h="32" xo="128" yo="96" id="10001483" name="inst_2893C721" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="docktower" x="320" y="992" w="32" h="32" xo="128" yo="96" id="10001484" name="inst_0F4F1B53" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="docktower" x="352" y="992" w="32" h="32" xo="128" yo="96" id="10001485" name="inst_7D899971" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="docktower" x="384" y="992" w="32" h="32" xo="128" yo="96" id="10001486" name="inst_8027020D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="docktower" x="416" y="992" w="32" h="32" xo="128" yo="96" id="10001487" name="inst_67B8615E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="docktower" x="416" y="960" w="32" h="32" xo="128" yo="64" id="10001488" name="inst_851FD88C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="docktower" x="384" y="960" w="32" h="32" xo="128" yo="64" id="10001489" name="inst_7A78C5ED" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="docktower" x="352" y="960" w="32" h="32" xo="128" yo="64" id="10001490" name="inst_744BA659" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="docktower" x="192" y="960" w="32" h="32" xo="128" yo="64" id="10001491" name="inst_70E11BE7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>-1</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
