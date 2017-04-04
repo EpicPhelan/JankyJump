@@ -31,6 +31,7 @@ mousex = distance_to_point(mouse_x,y)
 device_mouse_dbclick_enable(false);
 mousey = distance_to_point(x,mouse_y)
 cp = false
+cauldron = 0
 </string>
           </argument>
         </arguments>
@@ -76,6 +77,8 @@ cp = false
           <argument>
             <kind>1</kind>
             <string>cp = true
+//image_index += 1
+cauldron = other.id
 </string>
           </argument>
         </arguments>
@@ -102,15 +105,12 @@ cp = false
 {
     instance_create(x,y,obj_dead_player);
 }
-if cp = true{
 
-phy_position_x = instance_nearest(x,y,obj_cauldron).phy_position_x
-phy_position_y = instance_nearest(x,y,obj_cauldron).phy_position_y
+if cp = true{
+phy_position_x = cauldron.phy_position_x;
+phy_position_y = cauldron.phy_position_y;
 }
-else{
-    x = 64
-    y = 480
-}
+
 </string>
           </argument>
         </arguments>
@@ -141,13 +141,10 @@ else{
 
 
 if cp = true{
-phy_position_x = instance_nearest(x,y,obj_cauldron).phy_position_x;
-phy_position_y = instance_nearest(x,y,obj_cauldron).phy_position_y;
+phy_position_x = cauldron.phy_position_x;
+phy_position_y = cauldron.phy_position_y;
 }
-else{
-    phy_position_x = 64;
-    phy_position_y = 480;
-} 
+
 
 </string>
           </argument>
@@ -277,8 +274,10 @@ if (!place_meeting(x,y+1,obj_floor) &amp;&amp; jumped = true){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>phy_position_x = instance_nearest(x,y,obj_cauldron).phy_position_x
-phy_position_y = instance_nearest(x,y,obj_cauldron).phy_position_y
+            <string>if cp = true{
+phy_position_x = cauldron.phy_position_x;
+phy_position_y = cauldron.phy_position_y;
+}
 
 </string>
           </argument>

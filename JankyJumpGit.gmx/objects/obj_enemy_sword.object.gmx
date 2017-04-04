@@ -71,13 +71,26 @@ instance_destroy()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-phy_rotation -=10;
-if phy_rotation &lt; 180
-{
-    repeat(random(10))
+            <string>if obj_player.x &lt; x{
+
+    phy_rotation -=10;
+    if phy_rotation &lt; 180
     {
-        phy_rotation +=50
+        repeat(random(10))
+        {
+            phy_rotation +=50
+        }
+    }
+}
+else if obj_player.x &gt; x{
+    
+    phy_rotation +=10;
+    if phy_rotation &lt; 180
+    {
+        repeat(random(10))
+        {
+            phy_rotation -=50
+        }
     }
 }
 </string>
