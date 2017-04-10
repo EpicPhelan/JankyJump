@@ -27,6 +27,8 @@
       <sprite>sprites\spr_enemy</sprite>
       <sprite>sprites\spr_dane_pull</sprite>
       <sprite>sprites\spr_dane_throw</sprite>
+      <sprite>sprites\spr_juggerdane_attack</sprite>
+      <sprite>sprites\spr_juggerdane_walk</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -60,6 +62,7 @@
       <object>objects\obj_floor</object>
     </objects>
     <object>objects\obj_junk</object>
+    <object>objects\obj_juggerdane</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Menu</room>
