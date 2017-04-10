@@ -10,10 +10,11 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_sword</sprite>
     <sprite>sprites\spr_enemy_dead</sprite>
-    <sprite>sprites\spr_enemy_sword</sprite>
     <sprite>sprites\spr_dead_player</sprite>
     <sprite>sprites\spr_room_goal</sprite>
+    <sprite>sprites\spr_enemy_sword</sprite>
     <sprite>sprites\spr_spear</sprite>
+    <sprite>sprites\spr_axe</sprite>
     <sprite>sprites\spr_cauldron</sprite>
     <sprite>sprites\spr_junk</sprite>
     <sprites name="buttons">
@@ -30,7 +31,6 @@
       <sprite>sprites\spr_juggerdane_attack</sprite>
       <sprite>sprites\spr_juggerdane_walk</sprite>
     </sprites>
-    <sprite>sprites\spr_axe</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\rock_tiles</background>

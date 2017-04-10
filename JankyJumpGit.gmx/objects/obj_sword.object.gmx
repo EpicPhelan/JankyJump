@@ -52,7 +52,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_junk">
+    <event eventtype="4" ename="obj_enemy_sword">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -75,7 +75,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_enemy_sword">
+    <event eventtype="4" ename="obj_junk">
       <action>
         <libid>1</libid>
         <id>603</id>
