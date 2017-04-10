@@ -28,9 +28,9 @@
             <string>image_xscale = 1.5;
 image_yscale = 1.5;
 image_speed = .1;
-steps = 0;
 dir = 1;
-
+e_axe = instance_create(x,y,obj_axe);
+physics_joint_revolute_create(id,e_axe,e_axe.x,e_axe.y-20,0,0,0,0,0,false,false);
 </string>
           </argument>
         </arguments>
@@ -53,9 +53,12 @@ dir = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//stuff 
-
-
+            <string>//weapon
+with(e_axe){
+    phy_position_x = other.phy_position_x;
+    phy_position_y = other.phy_position_y;
+}
+//movement
 if place_meeting(x-20,y,obj_floor)  {
     image_xscale = 1* dir;
     phy_position_x -= 1* dir;
@@ -103,6 +106,30 @@ instance_create(x,y,obj_enemy_dead);
 }
 
 instance_destroy();
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>with (e_axe)
+{
+instance_destroy();
+}
 </string>
           </argument>
         </arguments>

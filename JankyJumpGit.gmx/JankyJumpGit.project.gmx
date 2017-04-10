@@ -30,6 +30,7 @@
       <sprite>sprites\spr_juggerdane_attack</sprite>
       <sprite>sprites\spr_juggerdane_walk</sprite>
     </sprites>
+    <sprite>sprites\spr_axe</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\rock_tiles</background>
@@ -42,14 +43,8 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_player</object>
-    <object>objects\obj_enemy</object>
     <object>objects\obj_sword</object>
-    <object>objects\obj_enemy_dead</object>
-    <object>objects\obj_enemy_sword</object>
-    <object>objects\obj_dead_player</object>
     <object>objects\obj_room_goal</object>
-    <object>objects\obj_dane</object>
-    <object>objects\obj_spear</object>
     <object>objects\obj_cauldron</object>
     <objects name="Controllers">
       <object>objects\obj_Title</object>
@@ -57,12 +52,21 @@
       <object>objects\obj_level2_button</object>
       <object>objects\obj_level3_button</object>
       <object>objects\obj_store</object>
+      <object>objects\obj_enemy_dead</object>
+      <object>objects\obj_dead_player</object>
     </objects>
     <objects name="Walls and Floors">
       <object>objects\obj_floor</object>
+      <object>objects\obj_junk</object>
     </objects>
-    <object>objects\obj_junk</object>
-    <object>objects\obj_juggerdane</object>
+    <objects name="enemies">
+      <object>objects\obj_juggerdane</object>
+      <object>objects\obj_spear</object>
+      <object>objects\obj_dane</object>
+      <object>objects\obj_enemy_sword</object>
+      <object>objects\obj_enemy</object>
+      <object>objects\obj_axe</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Menu</room>
