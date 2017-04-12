@@ -82,6 +82,10 @@ if count &gt; 400 {
     sprite_index = spr_dane_throw;
     count = 0;
     e_spear = instance_create(x,y,obj_spear);
+    with e_spear{
+    image_xscale = other.image_xscale
+    physics_apply_impulse(x,y,-(other.image_xscale)*random(10),-random(10));
+    }
     alarm_set(3,50);  
 } 
 else {
@@ -89,6 +93,13 @@ else {
         //e_spear.phy_position_y = phy_position_y;
 
 }
+if obj_player.x &lt; x{
+    
+    image_xscale = 1
+}else if obj_player.x &gt; x{
+    
+    image_xscale = -1
+    }
 </string>
           </argument>
         </arguments>

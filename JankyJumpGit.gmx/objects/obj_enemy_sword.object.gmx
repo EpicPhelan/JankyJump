@@ -71,16 +71,51 @@ instance_destroy()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-phy_rotation -=10;
-if phy_rotation &lt; 180
-{
-    repeat(random(10))
+            <string>if obj_player.x &lt; x{
+
+    phy_rotation -=10;
+    if phy_rotation &lt; 180
     {
-        phy_rotation +=50
+        repeat(random(10))
+        {
+            phy_rotation +=50
+        }
+    }
+}
+else if obj_player.x &gt; x{
+    
+    phy_rotation +=10;
+    if phy_rotation &lt; 180
+    {
+        repeat(random(10))
+        {
+            phy_rotation -=50
+        }
     }
 }
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_floor">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>asdf</string>
           </argument>
         </arguments>
       </action>
@@ -108,28 +143,6 @@ if phy_rotation &lt; 180
       </action>
     </event>
     <event eventtype="4" ename="obj_player">
-      <action>
-        <libid>1</libid>
-        <id>605</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>asdf</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_floor">
       <action>
         <libid>1</libid>
         <id>605</id>
