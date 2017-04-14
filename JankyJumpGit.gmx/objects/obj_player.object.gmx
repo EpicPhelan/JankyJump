@@ -32,6 +32,35 @@ device_mouse_dbclick_enable(false);
 mousey = distance_to_point(x,mouse_y)
 cp = false
 cauldron = 0
+instance_create(x,y,obj_camera)
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Camera Delay Trigger
+with obj_camera
+{
+    cam_delay = false
+}
 </string>
           </argument>
         </arguments>
@@ -87,7 +116,13 @@ if cp = true{
 phy_position_x = cauldron.phy_position_x;
 phy_position_y = cauldron.phy_position_y;
 }
-
+with obj_camera
+{
+    cam_delay = true
+    shake = true
+    shake_value = 15
+}
+alarm[0] = room_speed
 
 </string>
           </argument>
@@ -120,7 +155,13 @@ if cp = true{
 phy_position_x = cauldron.phy_position_x;
 phy_position_y = cauldron.phy_position_y;
 }
-
+with obj_camera
+{
+    cam_delay = true
+    shake = true
+    shake_value = 15
+}
+alarm[0] = room_speed
 </string>
           </argument>
         </arguments>
@@ -158,6 +199,13 @@ phy_position_y = cauldron.phy_position_y;
     }
 
 }
+with obj_camera
+{
+    cam_delay = true
+    shake = true
+        shake_value = 15
+}
+alarm[0] = room_speed
 </string>
           </argument>
         </arguments>

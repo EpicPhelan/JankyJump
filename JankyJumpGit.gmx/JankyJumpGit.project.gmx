@@ -67,6 +67,7 @@
       <object>objects\obj_enemy</object>
       <object>objects\obj_axe</object>
     </objects>
+    <object>objects\obj_camera</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Menu</room>
