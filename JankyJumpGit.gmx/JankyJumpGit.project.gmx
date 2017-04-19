@@ -30,6 +30,7 @@
       <sprite>sprites\spr_dane_throw</sprite>
       <sprite>sprites\spr_juggerdane_attack</sprite>
       <sprite>sprites\spr_juggerdane_walk</sprite>
+      <sprite>sprites\spr_bow</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -39,6 +40,7 @@
     <background>background\waterplatform</background>
     <background>background\docktower</background>
     <background>background\Longship</background>
+    <background>background\shopidea</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -74,6 +76,7 @@
     <room>rooms\rm_1</room>
     <room>rooms\rm_2</room>
     <room>rooms\rm_3</room>
+    <room>rooms\rm_store</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
