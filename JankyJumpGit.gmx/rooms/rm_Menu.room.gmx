@@ -58,13 +58,13 @@ global.roomnum = 0;</code>
     <instance objName="obj_floor" x="0" y="0" name="inst_BF5F9F6B" locked="0" code="" scaleX="1" scaleY="30" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="480" y="0" name="inst_12F60E4A" locked="0" code="" scaleX="1" scaleY="30" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="128" y="864" name="inst_C7C459BF" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor" x="256" y="864" name="inst_4D09E9D3" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="32" y="704" name="inst_BC2E5B09" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="96" y="928" name="inst_0DF89AD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sword" x="96" y="928" name="inst_19276746" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cauldron" x="128" y="928" name="inst_E8917E95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_store" x="-32" y="896" name="inst_F43947BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_level3_button" x="416" y="768" name="inst_7BA149DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_save" x="64" y="832" name="inst_69AECFC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Cavetiles" x="0" y="960" w="32" h="32" xo="160" yo="160" id="10001002" name="inst_B6191D89" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

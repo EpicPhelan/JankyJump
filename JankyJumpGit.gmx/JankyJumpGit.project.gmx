@@ -44,6 +44,9 @@
     <background>background\shopidea</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_loadgame.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_sword</object>
@@ -57,6 +60,8 @@
       <object>objects\obj_store</object>
       <object>objects\obj_enemy_dead</object>
       <object>objects\obj_dead_player</object>
+      <object>objects\obj_level_parent</object>
+      <object>objects\obj_save</object>
     </objects>
     <objects name="Walls and Floors">
       <object>objects\obj_floor</object>

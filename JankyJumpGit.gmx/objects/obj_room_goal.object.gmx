@@ -27,7 +27,8 @@
             <kind>1</kind>
             <string>//room_next(room_num);
 
-game_restart();
+obj_save.UnlockedLevel += 1;
+room = rm_Menu
 </string>
           </argument>
         </arguments>

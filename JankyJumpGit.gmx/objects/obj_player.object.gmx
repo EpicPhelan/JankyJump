@@ -66,6 +66,45 @@ with obj_camera
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_level_parent">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if other.level &lt;= obj_save.UnlockedLevel
+{
+    switch other.level
+    {
+        case 1:
+        room = rm_1;
+        break;
+        
+        case 2:
+        room = rm_2;
+        break;
+        
+        case 3:
+        room = rm_3;
+        break;
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_enemy">
       <action>
         <libid>1</libid>
