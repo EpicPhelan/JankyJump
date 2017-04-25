@@ -60,11 +60,12 @@ if obj_player.x &lt; x{
     side = -1
     }
 
-if collision_line(phy_position_x,phy_position_y,side *(phy_position_x + 50), phy_position_y,obj_player,false,false) {
+if collision_line(phy_position_x,phy_position_y,(phy_position_x + 100), phy_position_y,obj_player,false,false) {
+    sprite_index = spr_enemy;
     with instance_create(phy_position_x,phy_position_y,obj_arrow)
         {
         phy_bullet = true;
-        physics_apply_local_impulse(0,10,0,200);
+        physics_apply_local_impulse(0,10,0,50);
         }
 } 
 </string>
