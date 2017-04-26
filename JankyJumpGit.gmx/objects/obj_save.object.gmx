@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>scr_loadgame()
-
 reset = false
 </string>
           </argument>
@@ -51,14 +50,12 @@ reset = false
           <argument>
             <kind>1</kind>
             <string>reset = false
-
 </string>
           </argument>
         </arguments>
       </action>
     </event>
     <event eventtype="3" enumb="0">
-    <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -75,7 +72,6 @@ reset = false
         <arguments>
           <argument>
             <kind>1</kind>
-
             <string>if reset == true
 {    
     var SaveFile = file_text_open_write("Save.sav");
@@ -105,8 +101,6 @@ reset = false
           <argument>
             <kind>1</kind>
             <string>if room != rm_Menu and file_exists("Save.sav")
-
-     
 {    
     if (file_exists("Save.sav")) file_delete("Save.sav");
     var SaveFile = file_text_open_write("Save.sav");
@@ -124,14 +118,12 @@ reset = false
     file_text_write_real(SaveFile,UnlockedLevel);
     file_text_close(SaveFile);
 }
-
 else if !(file_exists("Save.sav")){
     var SaveFile = file_text_open_write("Save.sav");
     UnlockedLevel = 1
     file_text_write_real(SaveFile,UnlockedLevel);
     file_text_close(SaveFile);
 }
-
 </string>
           </argument>
         </arguments>
