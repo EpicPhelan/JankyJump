@@ -27,11 +27,37 @@
             <kind>1</kind>
             <string>scr_loadgame()
 
+reset = false
 </string>
           </argument>
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>reset = false
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
     <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
@@ -49,7 +75,38 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if room != rm_Menu
+
+            <string>if reset == true
+{    
+    var SaveFile = file_text_open_write("Save.sav");
+    UnlockedLevel = 1
+    file_text_write_real(SaveFile,UnlockedLevel);
+    file_text_close(SaveFile);
+    alarm[0] = 60  
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if room != rm_Menu and file_exists("Save.sav")
+
+     
 {    
     if (file_exists("Save.sav")) file_delete("Save.sav");
     var SaveFile = file_text_open_write("Save.sav");
@@ -67,6 +124,14 @@
     file_text_write_real(SaveFile,UnlockedLevel);
     file_text_close(SaveFile);
 }
+
+else if !(file_exists("Save.sav")){
+    var SaveFile = file_text_open_write("Save.sav");
+    UnlockedLevel = 1
+    file_text_write_real(SaveFile,UnlockedLevel);
+    file_text_close(SaveFile);
+}
+
 </string>
           </argument>
         </arguments>

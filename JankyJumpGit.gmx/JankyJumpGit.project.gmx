@@ -33,6 +33,7 @@
       <sprite>sprites\spr_juggerdane_walk</sprite>
       <sprite>sprites\spr_bow</sprite>
     </sprites>
+    <sprite>sprites\spr_reset</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\rock_tiles</background>
@@ -62,6 +63,7 @@
       <object>objects\obj_dead_player</object>
       <object>objects\obj_level_parent</object>
       <object>objects\obj_save</object>
+      <object>objects\obj_reset</object>
     </objects>
     <objects name="Walls and Floors">
       <object>objects\obj_floor</object>
