@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//room_goto(rm_store);
+            <string>room_goto(rm_store);
 </string>
           </argument>
         </arguments>
@@ -34,7 +34,7 @@
   </events>
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>-1</PhysicsObjectSensor>
-  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectShape>1</PhysicsObjectShape>
   <PhysicsObjectDensity>0</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
@@ -45,6 +45,8 @@
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>0,0</point>
-    <point>32,32</point>
+    <point>64,0</point>
+    <point>64,64</point>
+    <point>0,64</point>
   </PhysicsShapePoints>
 </object>
