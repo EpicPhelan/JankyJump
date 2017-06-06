@@ -43,7 +43,6 @@
     <background>background\docktower</background>
     <background>background\Longship</background>
     <background>background\shopidea</background>
-    <background>background\desert</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -63,6 +62,7 @@
       <object>objects\obj_enemy_dead</object>
       <object>objects\obj_dead_player</object>
       <object>objects\obj_level_parent</object>
+      <object>objects\obj_save</object>
       <object>objects\obj_reset</object>
     </objects>
     <objects name="Walls and Floors">
