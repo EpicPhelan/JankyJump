@@ -449,9 +449,9 @@ phy_position_y = cauldron.phy_position_y;
   <PhysicsObjectAwake>0</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>8,4</point>
-    <point>24,4</point>
-    <point>32,30</point>
-    <point>0,30</point>
+    <point>8,1</point>
+    <point>26,1</point>
+    <point>30,33</point>
+    <point>6,33</point>
   </PhysicsShapePoints>
 </object>
