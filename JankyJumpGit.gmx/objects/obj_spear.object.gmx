@@ -70,7 +70,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>//this makes it not disapear. no idea why
+//phy_angular_velocity= 1;
+</string>
           </argument>
         </arguments>
       </action>
@@ -179,7 +181,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[5]=100
+            <string>alarm[5]=60;
 
  
 

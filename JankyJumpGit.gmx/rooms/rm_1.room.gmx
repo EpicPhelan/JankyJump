@@ -82,8 +82,7 @@
     <instance objName="obj_junk" x="178" y="136" name="inst_BB876EB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_junk" x="256" y="512" name="inst_7968B62D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_junk" x="155" y="350" name="inst_CBE59519" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bow" x="192" y="448" name="inst_DEC4D573" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_arrow" x="128" y="448" name="inst_A35E7570" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="192" y="448" name="inst_9C511FF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="rock_tiles" x="96" y="576" w="32" h="32" xo="32" yo="0" id="10000005" name="inst_D42F203B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

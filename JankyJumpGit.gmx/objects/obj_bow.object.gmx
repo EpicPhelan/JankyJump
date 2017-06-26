@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>side = 1;
+count= 0;
 </string>
           </argument>
         </arguments>
@@ -48,8 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-
+            <string>//aim at player
 if obj_player.x &lt; x{
     
     image_xscale = 1
@@ -60,14 +60,20 @@ if obj_player.x &lt; x{
     side = -1
     }
 
-if collision_line(phy_position_x,phy_position_y,(phy_position_x + 100), phy_position_y,obj_player,false,false) {
-    sprite_index = spr_enemy;
-    with instance_create(phy_position_x,phy_position_y,obj_arrow)
-        {
-        phy_bullet = true;
-        physics_apply_local_impulse(0,10,0,50);
+//move arrow
+count += random(5)
+if count &gt; 400 {
+    count = 0;
+    earrow = instance_create(phy_position_x,phy_position_y,obj_arrow);
+    with earrow{
+        var direct = point_direction(x,y,phy_position_x-10,phy_position_y-10);
+        physics_apply_impulse(x,y,-(other.image_xscale)*random(3),-random(3));
         }
-} 
+}
+
+
+
+
 </string>
           </argument>
         </arguments>
